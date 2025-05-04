@@ -154,7 +154,7 @@ const ContactSection = () => {
               className="rounded-2xl object-cover h-[220px] max-w-full "
             />
             <p className="font-sora font-light text-[16px] leading-[30px] text-[#DDDDDD] my-4">
-              I'm currently available to take on new projects, so feel free to send me a message about anything that you want to run past me. You can contact anytime at 24/7.
+            I’m actively seeking full-time opportunities as a React Developer and MERN Stack. If you have an opening or want to discuss how I can contribute to your team, feel free to reach out. I'm available and ready to connect anytime.
             </p>
 
             <div className="space-y-4 text-white">

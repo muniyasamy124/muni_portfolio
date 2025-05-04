@@ -28,7 +28,7 @@ const specializationData = [
     {
         icon: <FaAws size={28} />,
         title: "AWS",
-        description: "Deploying scalable, secure cloud solutions using services like EC2, S3, Lambda, Route 53, and RDS.",
+        description: "Deploying scalable, secure cloud solutions using services like EC2, S3.",
         projects: "1 Projects",
     }
 ];

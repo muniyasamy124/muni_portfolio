@@ -10,6 +10,7 @@ import {
     FaPen,
     FaUserGraduate,
 } from "react-icons/fa";
+import { FiDownload } from "react-icons/fi";
 import muni from "../assets/muni.webp";
 import topcor from "../assets/top-right.webp";
 import "../App.css";
@@ -94,7 +95,7 @@ const Hero = () => {
             </div>
 
             {/* Hero Content */}
-            <div className="bg-[#140C1C] border border-[#3d2456] rounded-3xl md:p-10 p-4 pb-10 flex flex-col md:flex-row items-center gap-10 max-w-6xl w-full shadow-xl">
+            <div className="bg-[#140C1C] border border-[#3d2456] rounded-3xl md:p-10 p-4 pb-10 flex flex-col md:flex-row items-center gap-10 max-w-7xl w-full shadow-xl">
                 {/* Profile Image */}
                 <div className="flex-shrink-0">
                     <img
@@ -121,11 +122,11 @@ const Hero = () => {
                     {/* Button and Social */}
                     <div className="flex items-center gap-4 mt-8 flex-wrap">
                         <a
-                            href="/resume.pdf"
+                            href="/Muniyasamy_Webdev_Resume.pdf"
                             download
-                            className="bg-[#8750F7] hover:bg-white hover:text-[#8750F7] hover:border-2 hover:border-[#8750F7] text-white px-6 py-[20px] rounded-full font-sora font-semibold text-[15px] leading-[15px] shadow-lg transition-all"
+                            className="bg-[#8750F7] hover:bg-white hover:text-[#8750F7] hover:border-2 hover:border-[#8750F7] text-white px-6 py-[20px] rounded-full font-sora font-semibold text-[15px] leading-[15px] shadow-lg transition-all flex items-center gap-2"
                         >
-                            Download Resume ↓
+                            Download Resume <FiDownload className="text-[18px]" />
                         </a>
                         <div className="flex flex-wrap gap-4 text-[#a47bff]">
                             {[
