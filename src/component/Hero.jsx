@@ -122,7 +122,7 @@ const Hero = () => {
                     {/* Button and Social */}
                     <div className="flex items-center gap-4 mt-8 flex-wrap">
                         <a
-                            href="/Muniyasamy_Webdev_Resume.pdf"
+                            href="/Muniyasamy_Resume.pdf"
                             download
                             className="bg-[#8750F7] hover:bg-white hover:text-[#8750F7] hover:border-2 hover:border-[#8750F7] text-white px-6 py-[20px] rounded-full font-sora font-semibold text-[15px] leading-[15px] shadow-lg transition-all flex items-center gap-2"
                         >
